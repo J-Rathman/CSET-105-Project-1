@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-1</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="home.js"></script>
+</head>
+<body>
+    <div class="top">
+        <h1>Make a grocery list</h1>
+        <h2>Add items below</h2>
+        <input type="text" name="item-input-field" id="item-to-add">
+    </div>
+
+    <div class="list">
+        <button onclick="addItem();">Add item</button>
+        <button onclick="filterNotBought();">Show only unpurchased</button>
+        <button onclick="filterBought();">Show only purchased</button>
+        <button onclick="filterAll();">Show all</button>
+        <ul id="grocery-list"></ul>
+    </div>
+    
+</body>
+</html>

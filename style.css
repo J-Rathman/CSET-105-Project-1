@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top, .list {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list li {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+
+/* Borrowed from w3 schools - prevents text in list from being highlighted */
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
